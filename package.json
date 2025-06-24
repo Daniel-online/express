@@ -5,8 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
+    "watch": "nodemon server.js",
     "start": "node server.js"
   },
   "author": "Daniel Lourenco Affonso",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
